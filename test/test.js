@@ -2,10 +2,9 @@
 (function() {
   var EQTokenizer, NumberValue, eqt;
 
+  //Set Number and eqt
   NumberValue = require('../../src/parser/NumberValue');
-
   eqt = require('../../src/parser/EQTokenizer');
-
   EQTokenizer = eqt.EQTokenizer;
 
   describe("A Tokenizer", function() {
